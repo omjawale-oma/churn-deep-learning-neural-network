@@ -32,7 +32,7 @@ Input -> Dense(64, ReLU) -> Dropout(0.3) -> Dense(32, ReLU) -> Dropout(0.3) -> D
 | Logistic regression | 0.742 | 0.509 | 0.789 | 0.618 | 0.841 |
 | Random forest | 0.787 | 0.628 | 0.487 | 0.548 | 0.828 |
 
-   ![Training curves](training_curves.png)
+![Training curves](training_curves.png)
 
 ## Key takeaways
 - The neural network correctly identified 75% of customers who churned (recall 0.75) with a ROC-AUC of 0.835.
